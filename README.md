@@ -51,7 +51,7 @@ Optimized for Qubic's high-supply tokenomics. The system employs a **50,000,000 
 ## **🚀 Live Demo**
 
 Access the live intelligence dashboard here:  
-🔗 Launch Qubic Sentinel Terminal(#https://lookerstudio.google.com/reporting/3a577c8d-cd5b-4e4a-ad1e-be72941c67e6)
+🔗 [Qubic Sentinel Terminal](#https://lookerstudio.google.com/reporting/3a577c8d-cd5b-4e4a-ad1e-be72941c67e6)
 
 ## **🛠️ How to Build**
 
