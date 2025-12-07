@@ -21,16 +21,6 @@ This project utilizes a **Serverless, Event Driven Architecture** to achieve hig
 | **Visualization** | **Google Looker Studio** | Renders the "War Room" dashboard with real-time volatility charts and AI feeds. |
 | **Alerting System** | **Discord Webhooks** | Pushes instant "Flash Alerts" to mobile devices with \<500ms latency. |
 
-### **System Data Flow**
-
-graph LR  
-A\[EasyConnect Listener\] \--\>|JSON Payload| B(Make.com Webhook)  
-B \--\>|Raw Data| C{Transaction Type?}  
-C \--\>|BUY| D\[Gemini AI: Accumulation Analyst\]  
-C \--\>|SELL| E\[Gemini AI: Resistance Analyst\]  
-D & E \--\>|Enriched Data| F\[(Google Sheets DB)\]  
-F \--\>|Sync| G\[Looker Studio Dashboard\]  
-B \--\>|Flash Alert| H\[Discord Channel\]
 
 ## **⚡ Key Features**
 
@@ -61,7 +51,7 @@ Optimized for Qubic's high-supply tokenomics. The system employs a **50,000,000 
 ## **🚀 Live Demo**
 
 Access the live intelligence dashboard here:  
-🔗 Launch Qubic Sentinel Terminal
+🔗 Launch Qubic Sentinel Terminal(#https://lookerstudio.google.com/reporting/3a577c8d-cd5b-4e4a-ad1e-be72941c67e6)
 
 ## **🛠️ How to Build**
 
@@ -71,7 +61,6 @@ To deploy your own instance of Qubic Sentinel:
 2. **Database Setup:** Create a Google Sheet with headers: Timestamp, Type, Sender, VOL(QUBIC), AI\_Analysis.  
 3. **Ingestion:** Configure **EasyConnect** to send AddToBid and AddToAsk events to your Make.com webhook URL.  
 4. **Connect Intelligence:** Add your Google Gemini API key to the Make.com module.  
-5. **Visualize:** Connect the Google Sheet to Looker Studio and apply the "Constellation" theme for the institutional dark-mode aesthetic.
 
 ## 
 
