@@ -1,4 +1,4 @@
-# **Qubic Sentinel 🛡️**
+# **Qubic Sentinel 📊**
 
 ### **AI-Powered Real-Time Market Intelligence for the Qubic Network**
 
